@@ -44,7 +44,7 @@ def topsis(input_file, weights, impacts, output_file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 5:
-        print("Usage: python <RollNumber>.py <input_file> <weights> <impacts> <output_file>")
+        print("Usage: python <102203955>.py <102203955-data.csv> <weights> <impacts> <102203955-result.csv>")
         print("Example: python 1015579.py 1015579-data.csv '0.25,0.25,0.25,0.25' '+,+,-,+' output.csv")
     else:
         input_file = sys.argv[1]
@@ -52,4 +52,4 @@ if __name__ == "__main__":
         impacts = sys.argv[3].split(',')
         output_file = sys.argv[4]
         
-        topsis(input_file, weights, impacts, output_file)
+        topsis(102203955-data.csv, weights, impacts, 102203955-result.csv)
