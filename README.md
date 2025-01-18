@@ -5,5 +5,7 @@ This project implements the TOPSIS (Technique for Order of Preference by Similar
 **Key Features:**
 
 -Command-line program with custom weights and impacts.
+
 -Comprehensive validation for input files and parameters.
+
 -Outputs include TOPSIS scores and rankings for decision alternatives.
